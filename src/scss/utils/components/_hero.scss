@@ -1,0 +1,32 @@
+.hero__img {
+  width: 357px;
+  height: 357px;
+  position: absolute;
+  top: 323px;
+}
+  @media screen and (min-width:1024px ) {
+    .hero__img {
+      position: absolute;
+      width: 509px;
+      height: 509px;
+    }
+
+
+}
+
+.hero__title {
+  z-index: 11;
+}
+
+.hero__ellipse {
+  content: '';
+  z-index: 100;
+  width: 581px;
+  height: 581px;
+  border-radius: 50%;
+  background: radial-gradient(50% 50% at 50% 50%, #F0C538 0%, #F67824 63.02%);
+  @media screen and (min-width: 767px){
+    width: 709px;
+    height: 709px;
+  }
+}

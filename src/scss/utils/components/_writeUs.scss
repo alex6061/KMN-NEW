@@ -1,0 +1,92 @@
+.writeUs {
+  //position: relative;
+  background: linear-gradient(180deg, #F67824 0%, #F06238 100%);
+  box-shadow: 0px 15px 60px rgba(246, 120, 36, 0.42);
+
+  padding: 79px 34px 79px;
+  //z-index: 1;
+
+
+}
+
+.writeUs::after {
+  position: absolute;
+  content: '';
+  width: 100px;
+  height: 100px;
+  left: 50px;
+  top: 50px;
+  background-image: url('./../../../img/writeUs/KMH.png');
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
+.writeUs__form {
+  background: #FFFFFF;
+  padding: 38px 32px;
+  border-radius: 20px;
+  //z-index: 10;
+
+  @media screen and (min-width: 447px) {
+      max-width: 446px;
+
+    margin: 0 auto;
+  }
+}
+
+
+.writeUs__form__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.writeUs__form__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #484848;
+  font-family: 'inter', Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+.writeUs__form__input {
+  background: #D9D9D9;
+  border-radius: 20px;
+
+  margin-bottom: 7px;
+  outline: none;
+  border: none;
+  padding: 7px 11px;
+  &::placeholder {
+    font-family: 'Inter',Arial,sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #2E2E2E;
+
+
+  }
+}
+
+.writeUs__form__button {
+  background: #2E2E2E;
+  border-radius: 20px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #FFFFFF;
+  padding: 9px 9px;
+
+  margin-top: 22px;
+}
+
+
